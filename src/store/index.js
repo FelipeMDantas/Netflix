@@ -21,6 +21,7 @@ export const getGenres = createAsyncThunk("netflix/genres", async () => {
 });
 
 const createArrayFromRawData = (array, moviesArray, genres) => {
+  console.log(array);
   array.forEach((movie) => {
     const movieGenres = [];
     movie.genre_ids.forEach((genre) => {

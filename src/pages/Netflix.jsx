@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Navbar from "../components/Navbar";
 import backgroundImage from "../assets/home.jpg";
 import { fetchMovies, getGenres } from "../store";
+import Slider from "../components/Slider";
 
 const Netflix = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ const Netflix = () => {
     return () => (window.onscroll = null);
   };
 
-  //console.log(movies);
+  console.log(movies);
 
   return (
     <Container>
