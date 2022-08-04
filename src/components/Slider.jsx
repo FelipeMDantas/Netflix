@@ -5,6 +5,8 @@ const Slider = ({ movies }) => {
     return movies.slice(from, to);
   };
 
+  console.log({ movies });
+
   return (
     <div>
       <CardSlider title="Trending Now" data={getMoviesFromRange(0, 10)} />
