@@ -2,7 +2,8 @@
 
 # dependencies
 node_modules
-src/utils/constants.js
+netflix-ui/src/utils/constants.js
+.env
 /.pnp
 .pnp.js
 .yarn/*
