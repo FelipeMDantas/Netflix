@@ -41,7 +41,7 @@ A couple of technologies were employed in this project. Among them:
   [npm]: https://www.npmjs.com/
   [styled-components]: https://styled-components.com/
   [react icons]: https://react-icons.github.io/react-icons/
-  [readux toolkit]: https://redux-toolkit.js.org/
+  [redux toolkit]: https://redux-toolkit.js.org/
   [axios]: https://axios-http.com/docs/intro
   [firebase]: https://firebase.google.com/
   [react router dom]: https://reactrouter.com/
